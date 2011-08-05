@@ -4,7 +4,6 @@
         var methods = {
 
             init : function(options) {
-                alert('foooo');
                 var settings = this.placeholderShim.settings = $.extend({}, this.placeholderShim.defaults, options);
                 return this.each(function() {
                     var $element = $(this),
