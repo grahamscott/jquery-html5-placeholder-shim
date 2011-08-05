@@ -31,7 +31,7 @@
                             ol.css(helpers.calcPositionCss(element, settings));
                             ol.data('target', $element);
                             ol.click(function(){
-                                $element.data('target').focus()
+                                $(this).data('target').focus()
                             });
                             ol.insertAfter($element);
                     
