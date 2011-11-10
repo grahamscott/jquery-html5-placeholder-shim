@@ -9,9 +9,9 @@
                     var $element = $(this),
                          element = this;
                     
-                    if($element.data('placeholder')){
-                        return true;
-                    }
+                    //if($element.data('placeholder')){
+                    //    return true;
+                    //}
         
                     var ol = $('<label />');
 
